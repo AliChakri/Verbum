@@ -1,0 +1,49 @@
+# ─── Node Dependencies ────────────────────────────────
+# If you ever run `npm install` in the repo root
+/node_modules
+
+# Frontend dependencies
+/frontend/node_modules
+
+# Backend dependencies
+/backend/node_modules
+
+# ─── Environment ──────────────────────────────────────
+# Do not commit your secret keys
+/frontend/.env
+/backend/.env
+
+# ─── Build / Output ───────────────────────────────────
+# React/Vite build
+/frontend/build
+# If you ever transpile backend (e.g. TypeScript)
+/backend/dist
+
+# ─── Logs ─────────────────────────────────────────────
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ─── Editor & OS Files ───────────────────────────────
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+
+# VSCode (but keep workspace extensions file)
+/.vscode/*
+!.vscode/extensions.json
+
+# JetBrains
+.idea/
+
+# Misc
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
