@@ -4,7 +4,7 @@
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState,useRef  } from "react";
 import { toast } from "react-toastify";
-import APIAdmin from "../../APIAdmin";
+import APIAdmin from "../../Axios/APIAdmin";
 import RecentBlogs from "../../components/Home/RecentBlogs";
 import AllPost from "../../components/Home/AllPost";
 import { MoveRight } from "lucide-react";

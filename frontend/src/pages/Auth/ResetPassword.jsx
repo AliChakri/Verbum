@@ -3,7 +3,7 @@
 
 import { useState } from "react";
 import { toast } from "react-toastify";
-import API from "../../api";
+import API from "../../Axios/api";
 import { useNavigate,useParams } from "react-router-dom";
 
 

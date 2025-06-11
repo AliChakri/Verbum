@@ -1,7 +1,7 @@
 
 
 import { useState } from 'react'
-import API from '../../../api';
+import API from '../../../Axios/api';
 
 const Email = () => {
 

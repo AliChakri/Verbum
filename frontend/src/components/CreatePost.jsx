@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import Quill from "quill";
 import "quill/dist/quill.snow.css";
-import APIAdmin from "../APIAdmin";
+import APIAdmin from "../Axios/APIAdmin";
 import { toast } from "react-toastify";
 
 

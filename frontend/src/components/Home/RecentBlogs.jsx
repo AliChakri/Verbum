@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import APIAdmin from '../../APIAdmin';
+import APIAdmin from '../../Axios/APIAdmin';
 
 const stripHtml = (html) => {
     const doc = new DOMParser().parseFromString(html, 'text/html');

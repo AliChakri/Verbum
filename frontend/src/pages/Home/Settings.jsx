@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import API from "../../api";
+import API from "../../Axios/api";
 import { toast } from "react-toastify";
 
 function Settings() {

@@ -6,7 +6,6 @@ import Home from './pages/Home/Home'
 import AllPosts from './pages/Home/AllPosts'
 import SinglePage from './pages/Home/SinglePage'
 import About from './pages/Home/About'
-import Footer from './components/Home/Footer'
 import Settings from './pages/Home/Settings'
 
 import SplashScreen from './components/SplashScreen'
@@ -22,7 +21,7 @@ import CheckEmail from './components/Auth/CheckEmail'
 import NavBar from './components/Nav/NavBar'
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 
 import CreatePost from './components/CreatePost'
@@ -38,15 +37,13 @@ import Email from './pages/Auth/Re-Verifying/Email'
 
 function App() {
 
-  const [user, setUser] = useState(null); // ✅ User state
-
   const [loading, setLoading] = useState(false);
 
-  // useEffect(() => {
-  //   // Simulate loading delay (e.g., fetching data, or just a nice splash)
-  //   const timer = setTimeout(() => setLoading(false), 2000);
-  //   return () => clearTimeout(timer);
-  // }, []);
+  useEffect(() => {
+    // Simulate loading delay (e.g., fetching data, or just a nice splash)
+    const timer = setTimeout(() => setLoading(false), 2000);
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     
@@ -56,7 +53,7 @@ function App() {
 
                 : 
 
-                <div className='w-full min-h-screen bg-[var(--bg-color)] text-[var(--text-color)] overflow-x-hidden'>
+                <div className='w-full min-h-screen bg-[var(--bg-color)] text-[var(--text-color)] overflow-x-hidden '>
       
 
 

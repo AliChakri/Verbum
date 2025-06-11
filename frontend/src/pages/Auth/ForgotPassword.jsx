@@ -4,7 +4,7 @@
 
 import { useState } from "react";
 import { toast } from "react-toastify";
-import API from "../../api";
+import API from "../../Axios/api";
 import { useNavigate } from "react-router-dom";
 
 function ForgotPassword() {

@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import APIAdmin from "../../APIAdmin";
+import APIAdmin from "../../Axios/APIAdmin";
 import { toast } from "react-toastify";
 import Card from "../../components/Categories/Card";
 import UserCard from "../../components/Categories/UserCard";

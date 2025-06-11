@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from 'react'
 import { toast } from 'react-toastify';
-import APIAdmin from '../../APIAdmin';
+import APIAdmin from '../../Axios/APIAdmin';
 
 const FilterBtns = () => {
 

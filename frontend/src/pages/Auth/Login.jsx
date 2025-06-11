@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
-import API from "../../api";
+import API from "../../Axios/api";
 import { useContext, useState } from "react";
 import { toast } from "react-toastify";
 import { AuthContext } from "../../context/AuthApi";

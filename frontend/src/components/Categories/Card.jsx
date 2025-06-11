@@ -1,7 +1,7 @@
 
 import { Delete, Edit, MoveRight } from 'lucide-react'
 import { Link, useNavigate } from 'react-router-dom'
-import APIAdmin from '../../APIAdmin';
+import APIAdmin from '../../Axios/APIAdmin';
 import { toast } from 'react-toastify';
 
 const Card = ( { blogId, image, time, title, description, cat } ) => {
