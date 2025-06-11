@@ -1,0 +1,10 @@
+
+
+        let { cat,page=1, limit=6 } = req.query;
+        const query = cat ? { cat } : {};
+
+        page = parseInt(page) || 1;   // Default to page 1
+        limit = parseInt(limit) || 5; // Default to 10 posts per page
+
+        const totalPosts = await PostModel.countDocuments(query); // Count total posts
+        const totalPages = Math.ceil(totalPosts / limit); // Total pages

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AC MERN - Auth</title>
+    <link href="src/index.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <style>
+      @keyframes scale-in {
+        from { transform: scale(0.5); opacity: 0%; filter: blur(5px); }
+        to { transform: scale(1); opacity: 100%; filter: blur(0px); }
+      }
+    
+      @keyframes translate-in {
+        from { transform: translateX(-25%) translateY(25%); }
+        to { transform: translateX(0) translateY(0); }
+      }
+    
+      @keyframes rotate-in {
+        from { transform: rotate(-10deg); }
+        to { transform: rotate(0deg); }
+      }
+    </style>
+  </body>
+</html>
